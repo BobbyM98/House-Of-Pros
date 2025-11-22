@@ -2,44 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>House of Pros Entertainment | Music & Streetwear</title>
     <meta name="description" content="Official site of House of Pros Ent. Exclusive streetwear collections and latest music releases." />
     <meta name="keywords" content="House of Pros, ZedEye, Streetwear, Afro-fusion, Music, Fashion, Entertainment, Cullinan" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://houseofprosentertainment.space" />
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:url" content="https://houseofprosentertainment.space" />
     <meta property="og:title" content="House of Pros Entertainment" />
     <meta property="og:description" content="The intersection of high-fidelity audio and premium streetwear." />
     <meta property="og:image" content="https://i.ibb.co/790HhFY/IMG-20250304-233047-550.jpg" />
     <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://i.ibb.co/790HhFY/IMG-20250304-233047-550.jpg" />
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
-      html {
-        scroll-behavior: smooth;
-      }
-      body {
-        font-family: 'Inter', sans-serif;
-      }
+      html { scroll-behavior: smooth; }
+      body { font-family: 'Inter', sans-serif; }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "vite": "https://aistudiocdn.com/vite@^7.2.4",
-    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
-  }
-}
-</script>
-</head>
+
+    <!-- Importmap for React & Vite (browser must support import maps!) -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+        "vite": "https://aistudiocdn.com/vite@^7.2.4",
+        "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+      }
+    }
+    </script>
+  </head>
   <body>
+    <noscript>
+      <div style="padding:1rem; background:#ffe3e3; color:#333;">This website requires JavaScript to function properly.</div>
+    </noscript>
     <div id="root"></div>
+    <!-- Entry point for React App -->
     <script type="module" src="./index.tsx"></script>
   </body>
 </html>
